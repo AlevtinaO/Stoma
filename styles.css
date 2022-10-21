@@ -110,6 +110,63 @@ html {
    width: calc(100%/2);
    padding-top: 20px;
 }
+.service {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.service-title {
+    max-width: 1024px;
+    color: var(--primary-color4);
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px; 
+}
+.background-main {
+    background-color: var(--primary-color5);
+    width: 100%;
+}
+.box-window {
+    display: flex;
+    flex-direction: row;
+    max-width: 1024px;
+    margin: 0 auto;
+    gap: 20px;
+}
+.service3 {
+    background-image: url(images/service-3.png);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    
+}
+.service2 {
+    background-image: url(images/service-2.png);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.service1 {
+    background-image: url(images/service-1.png);
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.
 @media (max-width:768px) {
     .color-mix {
         width: 100%;
@@ -118,6 +175,9 @@ html {
         width: 100%;
         display: flex;
         justify-content: space-evenly;
+    }
+    .service-title {
+        padding-top: 40px;
     }
 }
 @media (max-width: 600px) {
@@ -135,5 +195,4 @@ html {
 .nav {
     gap: 10px;
 }
-
 }
