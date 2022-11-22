@@ -31,7 +31,7 @@ html {
     .hat {
         display: flex;
         flex-direction: row;
-        max-width: 600px;
+        max-width: 1024px;
         margin: 0 auto;
         justify-content: space-between;
         align-items: center;
@@ -58,12 +58,13 @@ html {
         width: 100%;
     }
     .header {
-        max-width: 600px; 
-        margin: 0 auto;
+        max-width: 1024px; 
+        margin: 0 auto; 
     }
     .color-mix {
+        max-width: 600px; 
         padding-top: 80px;
-        width: 70%;
+        width: 40%;
     }
     .title-header {
        font-weight: 600;
@@ -82,7 +83,7 @@ html {
     color: var(--primary-color2);
     padding-top: 20px;
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 1024px;
 }
 .text {
     width: 350px;
@@ -106,21 +107,22 @@ html {
 .button-box {
    margin: 0 auto;
    padding-top: 20px;
-   max-width: 600px;
+   max-width: 1024px;
 }
 .service {
     width: 100%;
-    max-width: 600px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 .service-title {
-    max-width: 600px;
+    max-width: 1024px;
     color: var(--primary-color4);
     font-size: 40px;
     font-weight: 600;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 20px; 
+    margin: 0 auto;
 }
 .background-main {
     background-color: var(--primary-color5);
@@ -129,21 +131,19 @@ html {
 .box-window {
     display: flex;
     flex-direction: row;
-    max-width: 600px;
+    max-width: 1024px;
     margin: 0 auto;
-    gap: 20px;
-    justify-content: center;
+    justify-content: space-between;
 }
 .icon {
     color: white;
-    padding-top: 65px;
+    padding-top: 100px;
 }
 .service3 {
     background-image: url(images/service-3.png);
     background-size: cover;
     background-position: center;
-    width: 200px;
-    height: 100px;
+    width: 250px;
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 10px;  
@@ -151,10 +151,9 @@ html {
 }
 .service2 {
     background-image: url(images/service-2.png);
-    width: 200px;
-    height: 100px;
     background-size: cover;
     background-position: center;
+    width: 250px;
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 10px;
@@ -162,10 +161,9 @@ html {
 }
 .service1 {
     background-image: url(images/service-1.png);
-    width: 200px;
-    height: 100px;
     background-size: cover;
     background-position: center;
+    width: 250px;
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 10px;
@@ -182,14 +180,17 @@ html {
     display: flex;
     flex-direction: column;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     width: 70%;
     padding: 10px 0px 20px 10px;
-    gap: 30px;
+    gap: 70px;
+}
+.padding {
+    padding-right: 30px;
 }
 .pointer {
     color: white;
-    font-size: 40px;
+    font-size: 60px;
     padding-top: 70px;
 }
 .background-clinic {
@@ -199,7 +200,7 @@ html {
     width: 100%;
 }
 .clinic-title {
-    max-width: 600px;
+    max-width: 1024px;
     color: var(--primary-color3);
     font-size: 40px;
     font-weight: 600;
@@ -215,17 +216,181 @@ html {
 }
 .clinic-paragraf {
     padding-bottom: 10px;
-    max-width: 600px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 .clinic-button {
-    max-width: 600px;
+    max-width: 1024px;
     margin: 0 auto;
     display: flex;
     justify-content: end;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.reviews {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1024px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+}
+.reviews-box {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--primary-color16);
+    border-radius: 10px;  
+    box-shadow: 2px 3px 3px var(--primary-color16);
+    margin-bottom: 30px;
+    width: 49%;
+}
+.reviews-foto {
+    padding: 10px 10px 10px 10px;
+    object-position: center;
+}
+.foto-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.reviews-name {
+    color: var(--primary-color4);
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.reviews-text {
+    color: var(--primary-color14);
+    font-size: 16px;
+    line-height: 15px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.background-addres {
+    background-image:url(images/map-background.png);
+    background-size: cover;
+    background-position: top center;
+    width: 100%;  
+}
+.background-color {
+ background-color:#d1eaf586;   
+}
+.addres-box {
+    display: flex;
+    flex-direction: row;
+    max-width: 1024px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.addres {
+    border-radius: 10px;
+    border: 1px solid var(--primary-color4);
+    background-color: white;
+    width: 250px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.addres1 {
+    display: flex;
+    flex-direction: row;
+}
+.image-addres {
+    width: 20px;
+    height: 20px;
+    padding: 20px 5px 0 10px;
+}
+.addres-row {
+    display: flex;
+    flex-direction: column;
+}
+.addres-text {
+    font-size: 16px;
+    color: var(--primary-color4);
+    padding-top: 20px;
+}
+.addres-text2 {
+    font-size: 16px;
+    color: var(--primary-color4);
+} 
+.addres-title {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-color4);
+}
+.addres-title2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-color4);
+    padding: 40px 0 10px 20px;
+}
+.footer {
+    background-color: var(--primary-color10);
+}
+.footer-box {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-top: 40px;
+   
+}
+.footer-fb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.footer-text {
+    font-size: 16px;
+    color: var(--primary-color4);
+    width: 35%;
+}
+.footer-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+}
+.fb-link {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-color4);
+    text-decoration: none;
+}
+.icon-link {
+    padding-left: 5px;
+    width: 15px;
+    height: 15px;
+}
+.icon-addres {
+    width: 15px;
+    height: 15px; 
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.footer-addres {
+    font-size: 16px;
+    color: var(--primary-color4); 
+    line-height: 20px;
+    padding-top: 60px;
+}
+.footer-addres-text {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-color4); 
+}
+.footer-conf {
+    font-size: 16px;
+    color: var(--primary-color4); 
+    display: flex; 
+    flex-direction: row;
+    justify-content: end;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
 @media (max-width:768px) {
     .color-mix {
         width: 100%;
@@ -250,24 +415,56 @@ html {
     .pointer {
         display: none;
     }
-
-}
+    .clinic-text {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .clinic-button {
+        margin-right: 10px;
+    }
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .reviews-text {
+        font-size: 12px;
+    }
+    .reviews-name {
+        font-size: 18px;
+    }
+    .addres-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .background-addres {
+        height: 200px;
+        overflow: scroll;
+     }
+     .footer-fb {
+        display: flex;
+        flex-direction: column;
+     }
 @media (max-width: 600px) {
 .header {
     width: 100%;
     margin-left: 10px;
 }
-.title-header {
-   font-size: 36px; 
-}
 .header-text {
     flex-wrap: wrap;
     width: 100%;
+}
+.header-button {
+    margin-left: 10px;
 }
 .text {
   margin-left: 10px;  
 }
 .nav {
     gap: 10px;
+}
+.reviews-foto {
+    width: 50px;
 }
 }
