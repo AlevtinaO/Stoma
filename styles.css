@@ -50,6 +50,7 @@ html {
         font-size: 14px;
         gap: 20px;
         cursor: pointer;
+        text-decoration: none;
     }
     .background {
         background-image: url("images/hero.png");
